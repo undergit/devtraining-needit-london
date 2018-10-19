@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.multiplyTwoNums</api_name>
+        <client_callable>false</client_callable>
+        <description>This on demand/classless Script Include is passed two integers. The integers are added together and the sum is logged.</description>
+        <name>multiplyTwoNums</name>
+        <script><![CDATA[function multiplyTwoNums(int1,int2) {
+		var myProd = int1 * int2;
+		
+		gs.addInfoMessage("The product of " + int1 + " * " + int2 + " = " + myProd);
+		return(myProd);
+    }]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 11:58:14</sys_created_on>
+        <sys_id>ca4359fcdb11e300aedc0181ca9619ad</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>multiplyTwoNums</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_ca4359fcdb11e300aedc0181ca9619ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-19 12:21:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
